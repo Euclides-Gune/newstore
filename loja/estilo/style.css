@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Kaushan+Script&family=Sigmar&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #FFF01F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, white, transparent);
+    padding: 15px;
+    padding-top: 20px;
+    color: #E89D1C;
+    font-family: 'Kaushan Script', cursive;
+}
+
+header > h1 {
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 3.2em;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: #E89D1C;
+}
+
+nav > a:hover {
+    color: #FFC62C;
+    text-decoration: underline;
+}
+
+main {
+    text-indent: 10px;
+    margin: auto;
+}
+
+div#as {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+    color: white;
+    height: 400px;
+    width: 1400px;
+    background-image: url('../imagens/aps.png');
+    background-size: cover;
+}
+
+div#search {
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+    font-size: 1.3em;
+}
+
+input.pro {
+    width: 70px;
+    background-color: #E89D1C;
+    color: white;
+}
+
+input.pro:hover {
+    background-color: white;
+    color: black;
+}
+
+nav#contact {
+    text-align: right;
+    border-radius: 50%;
+}
+
+section.content {
+    display: inline-block;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
+    margin: 15px;
+    margin-right: 100px;
+    width: 230px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #FFC62C;
+}
+
+section.content:hover {
+    border-radius: 1px;
+    box-shadow: 1.5px 1.5px 1.2px white;
+}
+
+div.price {
+    color: white;
+    text-align:center;
+}
+
+button.btn {
+    width: 140px;
+    background-color: white;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.208);
+}
+
+button.btn:hover {
+    background-color: #E89D1C;
+    color: white;
+}
+
+aside {
+    padding: 7px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: auto;
+    background-color: #E89D1C;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 7px;
+    padding: 7px;
+    color: white;
+    background-color: #E8C61C;
+}
